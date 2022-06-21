@@ -1,0 +1,50 @@
+:root {
+    --primary-color: #212121;
+    --secondary-color: #757575;
+    --accent-color: #2196F3;
+    --primary-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+    --normal-font: 400;
+    --medium-font: 500;
+    --bold-font: 700;
+    --bolder-font: 900;
+    --font-size: 14px;    
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #ffffff;
+    padding: 24px, 215px, 25px;
+    display: flex;
+    font-size: 26px;
+    line-height: 1.19x;
+    letter-spacing: 0.03em;
+    align-items: center;
+    
+}
+.logo {
+    font-family: var(--secondary-font);
+    font-weight: var(--bold-font);
+    text-decoration: none;
+
+}
+
+.logo-title {
+    color: var(--accent-color);
+
+}
+
+.navigation {
+    display: flex;
+}
+
+.navigation-list {
+    display: flex;   
+}
+
+.contacts {
+    display: flex;    
+}
